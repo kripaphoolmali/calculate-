@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+
+<body>
+    <div class="justify-center items-center flex min-h-screen bg-red-100">
+        <div class="bg-red-500 
+        p-10
+        pt-3
+        rounded-xl
+        shadow-red-900
+        shadow-2xl">
+            <h1 class="text-white
+        font-bold
+        text-center
+        text-4xl
+        "> Calculator</h1>
+            <br>
+            <div class="flex
+        justify-center
+        ">
+                <input id="inputbox" type="text" placeholder="0" class="
+        rounded-lg
+        h-14
+        w-80
+        hover:bg-red-50
+        p-5
+        text-xl">
+
+
+            </div>
+            <br>
+            <div class="
+        grid
+        grid-cols-4
+        gap-9
+        text-xl
+        bg-red-500
+        text-black">
+
+                <button class="
+        bg-red-100
+        rounded-full
+        h-16
+        shadow-md
+        shadow-red-800
+        hover:bg-red-300">clr
+                </button>
+                <button class="
+        bg-red-100
+        rounded-full
+        h-16
+        shadow-md
+        shadow-red-800
+        hover:bg-red-300">dlit
+                </button>
+                <button onclick="per()" class="
+     bg-red-100
+     rounded-full
+     h-16
+     shadow-md
+     shadow-red-800
+     hover:bg-red-300">%
+                </button>
+                <button onclick="dev()" class="
+  bg-red-100
+  rounded-full
+  h-16
+  shadow-md
+  shadow-red-800
+  hover:bg-red-300">/
+                </button>
+                <button onclick="input7()" class="
+bg-red-100
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300">7
+                </button>
+                <button onclick="input8()" class="
+bg-red-100
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300">8
+                </button>
+                <button onclick="input9()" class="
+bg-red-100
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300">9
+                </button>
+                <button onclick="malti()" class="
+bg-red-100
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300">*
+                </button>
+                <button onclick="input4()" class="
+    bg-red-100
+    rounded-full
+    h-16
+    shadow-md
+    shadow-red-800
+    hover:bg-red-300">4
+                </button>
+                <button onclick="input5()" class="
+ bg-red-100
+ rounded-full
+ h-16
+ shadow-md
+ shadow-red-800
+ hover:bg-red-300">5
+                </button>
+                <button onclick="input6()" class="
+bg-red-100
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300">6
+                </button>
+                <button onclick="sub()" class="
+
+bg-red-100
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300">-
+                </button>
+                <button onclick="input1()" class="
+bg-red-100
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300">1
+                </button>
+                <button onclick="input2()" class="
+bg-red-100
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300">2
+                </button>
+                <button onclick="input3()" class="
+bg-red-100
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300">3
+                </button>
+                <button onclick="add()" class="
+bg-red-100
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300">+
+                </button>
+                <button onclick="dot()" class="
+bg-red-100
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300">.
+                </button>
+                <button onclick="input0()" class="
+bg-red-100
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300">0
+                </button>
+                <button onclick="result()" class="
+bg-red-400
+rounded-full
+h-16
+shadow-md
+shadow-red-800
+hover:bg-red-300
+col-span-2
+">=
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </div>
+<script src="cal.js"></script>
+</body>
+
+</html>
